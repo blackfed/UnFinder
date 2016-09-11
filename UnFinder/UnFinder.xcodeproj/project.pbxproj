@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B180CDA1D855D5500B2A6E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B180CD91D855D5500B2A6E4 /* AppDelegate.m */; };
+		8B180CDD1D855D5500B2A6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B180CDC1D855D5500B2A6E4 /* main.m */; };
+		8B180CE01D855D5500B2A6E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B180CDF1D855D5500B2A6E4 /* ViewController.m */; };
+		8B180CE21D855D5600B2A6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B180CE11D855D5600B2A6E4 /* Assets.xcassets */; };
+		8B180CE51D855D5600B2A6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B180CE31D855D5600B2A6E4 /* Main.storyboard */; };
+		8B180CF01D855D5600B2A6E4 /* UnFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B180CEF1D855D5600B2A6E4 /* UnFinderTests.m */; };
+		8B180CFB1D855D5600B2A6E4 /* UnFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B180CFA1D855D5600B2A6E4 /* UnFinderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B180CEC1D855D5600B2A6E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B180CCD1D855D5500B2A6E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B180CD41D855D5500B2A6E4;
+			remoteInfo = UnFinder;
+		};
+		8B180CF71D855D5600B2A6E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B180CCD1D855D5500B2A6E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B180CD41D855D5500B2A6E4;
+			remoteInfo = UnFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B180CD51D855D5500B2A6E4 /* UnFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B180CD81D855D5500B2A6E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B180CD91D855D5500B2A6E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B180CDC1D855D5500B2A6E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B180CDE1D855D5500B2A6E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B180CDF1D855D5500B2A6E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B180CE11D855D5600B2A6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B180CE41D855D5600B2A6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B180CE61D855D5600B2A6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B180CEB1D855D5600B2A6E4 /* UnFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B180CEF1D855D5600B2A6E4 /* UnFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnFinderTests.m; sourceTree = "<group>"; };
+		8B180CF11D855D5600B2A6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B180CF61D855D5600B2A6E4 /* UnFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B180CFA1D855D5600B2A6E4 /* UnFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnFinderUITests.m; sourceTree = "<group>"; };
+		8B180CFC1D855D5600B2A6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B180CD21D855D5500B2A6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B180CE81D855D5600B2A6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B180CF31D855D5600B2A6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B180CCC1D855D5500B2A6E4 = {
+			isa = PBXGroup;
+			children = (
+				8B180CD71D855D5500B2A6E4 /* UnFinder */,
+				8B180CEE1D855D5600B2A6E4 /* UnFinderTests */,
+				8B180CF91D855D5600B2A6E4 /* UnFinderUITests */,
+				8B180CD61D855D5500B2A6E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B180CD61D855D5500B2A6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B180CD51D855D5500B2A6E4 /* UnFinder.app */,
+				8B180CEB1D855D5600B2A6E4 /* UnFinderTests.xctest */,
+				8B180CF61D855D5600B2A6E4 /* UnFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B180CD71D855D5500B2A6E4 /* UnFinder */ = {
+			isa = PBXGroup;
+			children = (
+				8B180CD81D855D5500B2A6E4 /* AppDelegate.h */,
+				8B180CD91D855D5500B2A6E4 /* AppDelegate.m */,
+				8B180CDE1D855D5500B2A6E4 /* ViewController.h */,
+				8B180CDF1D855D5500B2A6E4 /* ViewController.m */,
+				8B180CE11D855D5600B2A6E4 /* Assets.xcassets */,
+				8B180CE31D855D5600B2A6E4 /* Main.storyboard */,
+				8B180CE61D855D5600B2A6E4 /* Info.plist */,
+				8B180CDB1D855D5500B2A6E4 /* Supporting Files */,
+			);
+			path = UnFinder;
+			sourceTree = "<group>";
+		};
+		8B180CDB1D855D5500B2A6E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B180CDC1D855D5500B2A6E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B180CEE1D855D5600B2A6E4 /* UnFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B180CEF1D855D5600B2A6E4 /* UnFinderTests.m */,
+				8B180CF11D855D5600B2A6E4 /* Info.plist */,
+			);
+			path = UnFinderTests;
+			sourceTree = "<group>";
+		};
+		8B180CF91D855D5600B2A6E4 /* UnFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B180CFA1D855D5600B2A6E4 /* UnFinderUITests.m */,
+				8B180CFC1D855D5600B2A6E4 /* Info.plist */,
+			);
+			path = UnFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B180CD41D855D5500B2A6E4 /* UnFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B180CFF1D855D5600B2A6E4 /* Build configuration list for PBXNativeTarget "UnFinder" */;
+			buildPhases = (
+				8B180CD11D855D5500B2A6E4 /* Sources */,
+				8B180CD21D855D5500B2A6E4 /* Frameworks */,
+				8B180CD31D855D5500B2A6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnFinder;
+			productName = UnFinder;
+			productReference = 8B180CD51D855D5500B2A6E4 /* UnFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B180CEA1D855D5600B2A6E4 /* UnFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B180D021D855D5600B2A6E4 /* Build configuration list for PBXNativeTarget "UnFinderTests" */;
+			buildPhases = (
+				8B180CE71D855D5600B2A6E4 /* Sources */,
+				8B180CE81D855D5600B2A6E4 /* Frameworks */,
+				8B180CE91D855D5600B2A6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B180CED1D855D5600B2A6E4 /* PBXTargetDependency */,
+			);
+			name = UnFinderTests;
+			productName = UnFinderTests;
+			productReference = 8B180CEB1D855D5600B2A6E4 /* UnFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B180CF51D855D5600B2A6E4 /* UnFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B180D051D855D5600B2A6E4 /* Build configuration list for PBXNativeTarget "UnFinderUITests" */;
+			buildPhases = (
+				8B180CF21D855D5600B2A6E4 /* Sources */,
+				8B180CF31D855D5600B2A6E4 /* Frameworks */,
+				8B180CF41D855D5600B2A6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B180CF81D855D5600B2A6E4 /* PBXTargetDependency */,
+			);
+			name = UnFinderUITests;
+			productName = UnFinderUITests;
+			productReference = 8B180CF61D855D5600B2A6E4 /* UnFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B180CCD1D855D5500B2A6E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Federico Zucchi";
+				TargetAttributes = {
+					8B180CD41D855D5500B2A6E4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 52SFGAKQHW;
+						DevelopmentTeamName = "Federico Zucchi (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					8B180CEA1D855D5600B2A6E4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 52SFGAKQHW;
+						DevelopmentTeamName = "Federico Zucchi (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B180CD41D855D5500B2A6E4;
+					};
+					8B180CF51D855D5600B2A6E4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 52SFGAKQHW;
+						DevelopmentTeamName = "Federico Zucchi (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B180CD41D855D5500B2A6E4;
+					};
+				};
+			};
+			buildConfigurationList = 8B180CD01D855D5500B2A6E4 /* Build configuration list for PBXProject "UnFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B180CCC1D855D5500B2A6E4;
+			productRefGroup = 8B180CD61D855D5500B2A6E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B180CD41D855D5500B2A6E4 /* UnFinder */,
+				8B180CEA1D855D5600B2A6E4 /* UnFinderTests */,
+				8B180CF51D855D5600B2A6E4 /* UnFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B180CD31D855D5500B2A6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B180CE21D855D5600B2A6E4 /* Assets.xcassets in Resources */,
+				8B180CE51D855D5600B2A6E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B180CE91D855D5600B2A6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B180CF41D855D5600B2A6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B180CD11D855D5500B2A6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B180CE01D855D5500B2A6E4 /* ViewController.m in Sources */,
+				8B180CDD1D855D5500B2A6E4 /* main.m in Sources */,
+				8B180CDA1D855D5500B2A6E4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B180CE71D855D5600B2A6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B180CF01D855D5600B2A6E4 /* UnFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B180CF21D855D5600B2A6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B180CFB1D855D5600B2A6E4 /* UnFinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B180CED1D855D5600B2A6E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B180CD41D855D5500B2A6E4 /* UnFinder */;
+			targetProxy = 8B180CEC1D855D5600B2A6E4 /* PBXContainerItemProxy */;
+		};
+		8B180CF81D855D5600B2A6E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B180CD41D855D5500B2A6E4 /* UnFinder */;
+			targetProxy = 8B180CF71D855D5600B2A6E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B180CE31D855D5600B2A6E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B180CE41D855D5600B2A6E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B180CFD1D855D5600B2A6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8B180CFE1D855D5600B2A6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B180D001D855D5600B2A6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = blackfed.UnFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B180D011D855D5600B2A6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = blackfed.UnFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B180D031D855D5600B2A6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = blackfed.UnFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnFinder.app/Contents/MacOS/UnFinder";
+			};
+			name = Debug;
+		};
+		8B180D041D855D5600B2A6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = blackfed.UnFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnFinder.app/Contents/MacOS/UnFinder";
+			};
+			name = Release;
+		};
+		8B180D061D855D5600B2A6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = blackfed.UnFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UnFinder;
+			};
+			name = Debug;
+		};
+		8B180D071D855D5600B2A6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = blackfed.UnFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UnFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B180CD01D855D5500B2A6E4 /* Build configuration list for PBXProject "UnFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B180CFD1D855D5600B2A6E4 /* Debug */,
+				8B180CFE1D855D5600B2A6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B180CFF1D855D5600B2A6E4 /* Build configuration list for PBXNativeTarget "UnFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B180D001D855D5600B2A6E4 /* Debug */,
+				8B180D011D855D5600B2A6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B180D021D855D5600B2A6E4 /* Build configuration list for PBXNativeTarget "UnFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B180D031D855D5600B2A6E4 /* Debug */,
+				8B180D041D855D5600B2A6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B180D051D855D5600B2A6E4 /* Build configuration list for PBXNativeTarget "UnFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B180D061D855D5600B2A6E4 /* Debug */,
+				8B180D071D855D5600B2A6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B180CCD1D855D5500B2A6E4 /* Project object */;
+}
